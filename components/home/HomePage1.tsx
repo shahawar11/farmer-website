@@ -1,7 +1,6 @@
 import React from 'react'
 import HeroSection from './HeroSection'
 import HomeFeatures from './HomeFeatures';
-import HeroText from './HeroText';
 import WhyChoose from './WhyChoose';
 
 function HomePage() {

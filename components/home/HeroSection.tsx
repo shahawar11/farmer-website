@@ -4,11 +4,10 @@ import Link from "next/link";
 
 function HeroSection() {
   return (
-    <div>
+    <div className="mx-auto pt-24">
       <section className="relative h-screen bg-bannerImg bg-no-repeat bg-cover  bg-black z-20 bottom-24">
-        
         <div className="absolute text-white padding lg:max-w-7xl 2xl:max-w-7xl z-40">
-          <div className="flex flex-col space-y-2 items-center lg:items-start justify-center mt-20 lg:mt-40">
+          <div className="flex flex-col space-y-2 items-center lg:items-start justify-center mt-40 lg:mt-40 2xl:mt-80">
             <h2 className="text-3xl lg:text-4xl font-semibold tracking-tighter">
               Welcome Vivasayi,
             </h2>
